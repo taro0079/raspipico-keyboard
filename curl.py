@@ -1,5 +1,6 @@
 import network
 import requests
+import time
 
 # Wi-Fi credentials
 
@@ -30,19 +31,3 @@ while True:
 
 # import network
 # import time
-
-
-# wlan = network.WLAN(network.STA_IF)
-# wlan.active(True)
-# wlan.connect(ssid, password)
-
-# while wlan.isconnected() == False:
-#     print("Connecting to Wi-Fi router")
-#     time.sleep(1)
-
-# wlan_status = wlan.ifconfig()
-# print("Connected!")
-# print(f"IP Address: {wlan_status[0]}")
-# print(f"Netmask: {wlan_status[1]}")
-# print(f"Default Gateway: {wlan_status[2]}")
-# print(f"Name Server: {wlan_status[3]}")
